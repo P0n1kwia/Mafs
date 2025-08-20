@@ -1,0 +1,41 @@
+# Build directories
+build/
+out/
+
+# Visual Studio cache
+.vs/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+*.cmake
+*.ninja
+.ninja_deps
+.ninja_log
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.out
+*.pdb
+*.ilk
+
+# IDE files
+*.suo
+*.user
+*.userosscache
+
+# VS Code
+.vscode/
+.history/
+
+# OS junk
+.DS_Store
+Thumbs.db
