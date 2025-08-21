@@ -137,7 +137,13 @@ namespace mafs {
 			return *this + (v - *this) * t;
 		}
 		
-		
+		constexpr auto begin() { return data.begin(); }
+		constexpr auto end() { return data.end(); }
+
+		constexpr auto begin() const { return data.begin(); }
+		constexpr auto end() const { return data.end(); }
+
+
 		//-----------------------------Public Variables -----------------------------
 		std::array<T, N> data;
 	};

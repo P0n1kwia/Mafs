@@ -131,7 +131,7 @@ namespace mafs {
         assert(std::abs(intensity - 1.0f) < 1e-6 && "Lighting intensity failed");
     }
 
-} // namespace mafs
+} 
 
 int main() {
     std::cout << "Running Vector tests...\n";
