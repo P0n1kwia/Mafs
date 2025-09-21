@@ -3,7 +3,7 @@
 #
 
 # Dodaj źródło do pliku wykonywalnego tego projektu.
-add_executable (Mafs "Mafs.cpp" )
+add_executable (Mafs "Mafs.cpp"  "include/mafs/vec.hpp" "tests/vec_test.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Mafs PROPERTY CXX_STANDARD 20)

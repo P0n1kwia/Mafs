@@ -2,7 +2,10 @@
 # i uwzględnij podprojekty w tym miejscu.
 #
 cmake_minimum_required (VERSION 3.8)
-
+project(Mafs LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF) # Disable compiler-specific extensions
 # Włącz przeładowywanie kodu XAML na gorąco dla kompilatorów MSVC, jeśli jest to obsługiwane.
 if (POLICY CMP0141)
   cmake_policy(SET CMP0141 NEW)
