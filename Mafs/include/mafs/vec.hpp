@@ -533,6 +533,14 @@ namespace mafs {
 		constexpr vec<T, 2> yz() const { return vec<T,2>{ y,z }; }
 		constexpr vec<T, 3> xyz() const { return vec<T, 3>{x, y, z}; }
 	};
+
+	using vec3f = vec<float, 3>;
+	using vec3d = vec<double, 3>;
+	using vec3i = vec<int, 3>;
+	using vec4f = vec<float, 4>;
+	using vec4d = vec<double, 4>;
+	using vec4i = vec<int, 4>;
+
 }//namespace mafs
 
 

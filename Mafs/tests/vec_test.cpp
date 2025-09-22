@@ -408,6 +408,8 @@ namespace mafs::test {
         mafs::vec<float, 3> v2{ 1.0f, 2.0f, 3.0f };
         mafs::vec<float, 3> v3{ 1.0f + 1e-9f, 2.0f, 3.0f };
         assert_true(v2 == v3, "vec<float, 3> equality with small difference");
+        mafs::vec3d vektor{ {3,2,1} };
+        std::cout << vektor;
     }
 
 } // namespace mafs::test
